@@ -1,0 +1,1 @@
+{"version":3,"file":"hooks.d.ts","sourceRoot":"","sources":["../../../../src/components/ChatInput/hooks.ts"],"names":[],"mappings":"AAIA,OAAO,KAAK,EAAE,2BAA2B,EAA8B,MAAM,uBAAuB,CAAC;AAErG,eAAO,MAAM,oBAAoB,wDAI9B;IACD,MAAM,CAAC,EAAE,MAAM,IAAI,CAAC;IACpB,aAAa,EAAE,CAAC,KAAK,EAAE,MAAM,KAAK,IAAI,CAAC;IACvC,uBAAuB,CAAC,EAAE,2BAA2B,CAAC;CACvD;;;;;;yBAuC6B,IAAI;0BAVH,IAAI;;CAmElC,CAAC"}

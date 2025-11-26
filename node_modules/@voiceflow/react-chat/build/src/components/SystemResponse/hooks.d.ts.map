@@ -1,0 +1,1 @@
+{"version":3,"file":"hooks.d.ts","sourceRoot":"","sources":["../../../../src/components/SystemResponse/hooks.ts"],"names":[],"mappings":"AAMA,OAAO,KAAK,EAAE,YAAY,EAAE,MAAM,SAAS,CAAC;AAE5C,cAAc,SAAS,CAAC;AAiBxB,eAAO,MAAM,mBAAmB,0BAG7B;IACD,QAAQ,EAAE,YAAY,EAAE,CAAC;IACzB,MAAM,EAAE,OAAO,GAAG,SAAS,CAAC;CAC7B;;;;CAyEA,CAAC"}

@@ -1,0 +1,10 @@
+export declare const isIOS: () => boolean;
+export declare const isBrave: () => boolean;
+export declare const isArc: () => boolean;
+export declare const isEdge: () => boolean;
+export declare const isOpera: () => boolean;
+export declare const isChrome: () => boolean;
+export declare const isSafari: () => boolean;
+export declare const isFirefox: () => boolean;
+export declare const isChromium: () => boolean;
+//# sourceMappingURL=device.d.ts.map

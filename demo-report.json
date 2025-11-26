@@ -1,0 +1,125 @@
+{
+  "generatedAt": "2025-11-26T10:56:31.903Z",
+  "workflow": {
+    "state": "reporting",
+    "availableTransitions": [],
+    "wsdlPath": "/Users/aviram/projects/demo-app/resources/calculator.wsdl"
+  },
+  "soapDescription": {
+    "CalculatorService": {
+      "CalculatorPort": {
+        "Add": {
+          "input": {
+            "a": "xsd:int",
+            "b": "xsd:int"
+          },
+          "output": {
+            "sum": "xsd:int"
+          }
+        }
+      }
+    }
+  },
+  "uiMetadata": {
+    "iconsLoaded": false,
+    "iconExports": [],
+    "wizardHelpers": [
+      "sleep"
+    ],
+    "voiceflowVersion": "1.65.2",
+    "exportPackage": {
+      "name": "react-data-to-export",
+      "version": "1.0.0"
+    },
+    "actbaseVersion": "0.1.31"
+  },
+  "wizardSketch": {
+    "title": "PostHog audit flow",
+    "steps": [
+      {
+        "id": "step-1",
+        "label": "Checkpoint 1",
+        "action": "wizard helper available"
+      },
+      {
+        "id": "step-2",
+        "label": "Checkpoint 2",
+        "action": "wizard helper available"
+      },
+      {
+        "id": "step-3",
+        "label": "Checkpoint 3",
+        "action": "wizard helper available"
+      }
+    ]
+  },
+  "voiceflowPlan": {
+    "projectID": "demo-project",
+    "packageVersion": "1.65.2",
+    "instructions": "Mount <VoiceflowProvider> in your React tree and load the chat widget."
+  },
+  "actbaseNative": {
+    "package": "@actbase/native",
+    "version": "0.1.31"
+  },
+  "fetchInsights": {
+    "entry": "/Users/aviram/projects/demo-app/node_modules/react-native-fetch/index.js",
+    "linesPreviewed": 40,
+    "snippet": [
+      "/* global fetch */",
+      "/* eslint no-unused-vars: \"off\" */",
+      "import React, { Component } from 'react'",
+      "import T from 'prop-types'",
+      "import tenFetch from 'tenacious-fetch'",
+      "",
+      "const noop = () => {}",
+      "",
+      "class Fetch extends Component {",
+      "  static propTypes = {",
+      "    url: T.string.isRequired,",
+      "    onResponse: T.func,",
+      "    onError: T.func,",
+      "    method: T.oneOf(['GET', 'POST', 'PUT', 'DELETE', 'PATCH']),",
+      "    body: T.oneOfType([T.object, T.string]),",
+      "    headers: T.object,",
+      "    credentials: T.string,",
+      "    retries: T.number,",
+      "    timeout: T.number",
+      "  };",
+      "",
+      "  static defaultProps = {",
+      "    method: 'GET',",
+      "    onResponse: noop,",
+      "    onError: noop",
+      "  };",
+      "",
+      "  componentDidMount = () => {",
+      "    if (fetch) {",
+      "      this.handleReqeuest()",
+      "    } else {",
+      "      throw new Error('fetch API required to perform request')",
+      "    }",
+      "  };",
+      "",
+      "  render () {",
+      "    return null",
+      "  }",
+      "",
+      "  handleReqeuest = () => {"
+    ]
+  },
+  "silgiPreview": [
+    "Usage: create-silgi [OPTION]... [DIRECTORY]",
+    "",
+    "Create a new Silgi project in JavaScript or TypeScript.",
+    "With no arguments, start the CLI in interactive mode.",
+    "",
+    "Options:",
+    "  -t, --template NAME        use a specific template",
+    "",
+    "Available templates:",
+    "\u001b[33mvanilla-ts     vanilla\u001b[39m",
+    "\u001b[32mvue-ts         vue\u001b[39m",
+    "\u001b[36mreact-ts       react\u001b[39m"
+  ]
+}

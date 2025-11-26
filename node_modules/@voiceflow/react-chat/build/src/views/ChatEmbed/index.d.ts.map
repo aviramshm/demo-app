@@ -1,0 +1,1 @@
+{"version":3,"file":"index.d.ts","sourceRoot":"","sources":["../../../../src/views/ChatEmbed/index.tsx"],"names":[],"mappings":"AAQA,UAAU,cAAe,SAAQ,KAAK,CAAC,iBAAiB;IACtD,UAAU,EAAE,UAAU,CAAC;IACvB,OAAO,EAAE,aAAa,GAAG,SAAS,CAAC;IACnC,KAAK,CAAC,EAAE,MAAM,IAAI,CAAC;CACpB;AAED,QAAA,MAAM,SAAS,EAAE,KAAK,CAAC,EAAE,CAAC,cAAc,CAuBvC,CAAC;AAEF,eAAe,SAAS,CAAC"}

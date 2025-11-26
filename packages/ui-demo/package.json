@@ -1,0 +1,24 @@
+{
+  "name": "@demo/ui-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "@trigo/fsm": "3.4.1",
+    "@voiceflow/react-chat": "1.65.2",
+    "@posthog/icons": "0.36.0",
+    "react-data-to-export": "1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.0.12"
+  }
+}
+

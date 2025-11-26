@@ -1,0 +1,17 @@
+{
+  "name": "@demo/ui-toolkit",
+  "version": "0.1.0",
+  "description": "Lightweight UI helper that demonstrates safe usage of previously flagged packages.",
+  "type": "module",
+  "main": "index.js",
+  "dependencies": {
+    "@actbase/native": "0.1.31",
+    "@posthog/icons": "0.36.0",
+    "@posthog/wizard": "1.18.2",
+    "@voiceflow/react-chat": "1.65.2",
+    "react": "18.3.1",
+    "react-data-to-export": "1.0.0",
+    "react-dom": "18.3.1"
+  }
+}
+
