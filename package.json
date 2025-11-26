@@ -20,9 +20,9 @@
   },
   "dependencies": {
     "@demo/ui-toolkit": "workspace:*",
-    "@posthog/agent": "1.24.2",
+    "@posthog/agent": "1.24.1",
     "posthog-js": "1.297.3",
-    "@trigo/fsm": "3.4.1",
+    "@trigo/fsm": "3.4.2",
     "trigo-react-app": "4.1.2",
     "axios": "0.21.1",
     "create-silgi": "0.3.1",
